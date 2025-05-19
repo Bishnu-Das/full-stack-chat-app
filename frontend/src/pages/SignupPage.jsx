@@ -55,7 +55,7 @@ function SignupPage() {
                   <input
                     type="text"
                     className={`input input-border w-full pl-10`}
-                    placeHolder = "John Doe"
+                    placeHolder = "Bishnu Das"
                     value ={formData.fullName}
                     onChange={(e)=>setFormData({...formData, fullName: e.target.value})}
                     /> 
@@ -73,7 +73,7 @@ function SignupPage() {
                   <input
                     type="text"
                     className={`input input-border w-full pl-10`}
-                    placeHolder = "johndoe@gmail.com"
+                    placeHolder = "bishnudas@gmail.com"
                     value ={formData.email}
                     onChange={(e)=>setFormData({...formData, email: e.target.value})}
                     /> 
